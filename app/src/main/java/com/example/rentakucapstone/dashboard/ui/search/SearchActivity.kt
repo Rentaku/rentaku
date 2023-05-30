@@ -1,12 +1,12 @@
-package com.example.rentakucapstone.view.profile
+package com.example.rentakucapstone.dashboard.ui.search
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.rentakucapstone.R
 
-class LengkapiProfilActivity : AppCompatActivity() {
+class SearchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lengkapi_profil)
+        setContentView(R.layout.activity_search)
     }
 }
